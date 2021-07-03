@@ -6,7 +6,12 @@ document.querySelector('.generate-qr-code').addEventListener('click', function (
     //Varifica se tentou gerar sem inserir nada
     if (url == '') {
         window.alert('Preencha o campo abaixo para o gerar um QRCode!')
-    } else {
+
+    } else if(size > 500){
+        window.alert('Tamanho máximo de 500px!')
+        window.location.reload();
+
+    }else {
 
         //div limpa antes de gerar o código
         document.querySelector('#qrcode').innerHTML = ''
