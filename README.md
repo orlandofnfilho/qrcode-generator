@@ -20,7 +20,7 @@
 
 ## 📋 Sobre
 
-Um gerador de código QR para usar em smartphone. Vai transformar o conteudo inserido no campo em código de barras podendo ser ele uma URL, telefone, texto, numero de telefone, uma localização georreferenciada, um e-mail, um contato ou um SMS. O usuário também pode escolher o tamanho do código gerado, desde 20 até 500px.
+Um gerador de código QR para usar em smartphone. Vai transformar o conteudo inserido no campo em código de barras, podendo ser ele uma URL, telefone, texto, numero de telefone, uma localização georreferenciada, um e-mail, um contato ou um SMS. O usuário também pode escolher o tamanho do código gerado, desde 20 até 500px.
 
 ---
 
