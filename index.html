@@ -12,11 +12,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <title>QRCode Generator</title>
 </head>
 
 <body>
-
+    <!--input/button area-->
     <div class="qr-code-generator" style="margin-top: 10%; left: 10%; justify-content: center; text-align: center;">
         <div id="mid">
             <h1>QRCode Generator</h1>
@@ -25,10 +26,18 @@
             <button class="generate-qr-code">Generate QRCODE</button>
             <button class="reset" onclick="window.location.reload();">Reset</button>
         </div>
+        <!--Instruções-->
+        <div id="obs">
+            <p>Obs.: Para uma URL, coloque o endereço completo a partir do protocolo ex.: https://www.google.com.br/</p>
+            <p>Algumas versões android não reconhecem como URL sem o endereço completo.</p>
+        </div>
+        <!--#obs-->
+        <!--qrcode-->
         <div id="qrcode" style="margin-top: 100px; margin-left:  auto; margin-right: auto"></div>
     </div>
-
+    <!--div para exibir o QRCode-->
     <div id="qrcode"></div>
+
 
     <script src="js/script.js"></script>
 </body>

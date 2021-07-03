@@ -30,8 +30,10 @@ h1{
 
 input {
     box-shadow: 0px 2px 6px black;
-    color: white;
+    color: black;
+    font-weight: bolder;
     background-color: rgba(0, 0, 0, 0.30)
+    
 }
 
 .qr-url,
@@ -55,7 +57,7 @@ input {
 .generate-qr-code {
     display: inline-block;
     width: 50%;
-    margin: 0.5em 0 0;
+    margin: 1em 0 0;
     padding: 0.25em;
     font-size: 1.2em;
     border: none;
@@ -66,17 +68,8 @@ input {
     border-radius: 10px;
 }
 .generate-qr-code:hover {
-    display: inline-block;
-    width: 50%;
-    margin: 0.5em 0 0;
-    padding: 0.25em;
-    font-size: 1.2em;
-    border: none;
-    cursor: pointer;
     background-color: #64dd17;
-    box-shadow: 0px 2px 6px black;
-    color: #fff;
-    border-radius: 10px;
+   
 }
 .reset {
     display: inline-block;
@@ -93,15 +86,19 @@ input {
 }
 
 .reset:hover {
+   background-color: red;
+  
+}
+
+#obs{
     display: inline-block;
-    width: 50%;
-    margin: 0.5em 0 0;
+    width: 100%;
+    margin: 1em 0 0;
     padding: 0.25em;
     font-size: 1.2em;
-    border: none;
-    cursor: pointer;
-    background-color: red;
+    background-color: white;
     box-shadow: 0px 2px 6px black;
-    color: #fff;
+    color: black;
     border-radius: 10px;
+
 }
