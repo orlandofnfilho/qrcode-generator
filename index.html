@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"
+        integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA=="
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>QRCode Generator</title>
+</head>
+
+<body>
+
+    <div class="qr-code-generator" style="margin-top: 10%; left: 10%; justify-content: center; text-align: center;">
+        <div id="mid">
+            <h1>QRCode Generator</h1>
+            <input type="text" class="qr-url" placeholder="URL or Text">
+            <input type="number" class="qr-size" value="128" min="20" max="500">
+            <button class="generate-qr-code">Generate QRCODE</button>
+            <button class="reset" onclick="window.location.reload();">Reset</button>
+        </div>
+        <div id="qrcode" style="margin-top: 100px; margin-left:  auto; margin-right: auto"></div>
+    </div>
+
+    <div id="qrcode"></div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
