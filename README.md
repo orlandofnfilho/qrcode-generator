@@ -32,7 +32,6 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - [HTML](https://www.w3schools.com/html/)
 - [CSS](https://www.w3schools.com/css/)
 - [JavaScript](https://www.javascript.com/)
-- [jQuery](https://jquery.com/)
 - [QRCode.js](http://davidshimjs.github.io/qrcodejs/)
 
 
