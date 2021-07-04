@@ -1,13 +1,12 @@
 @charset "UTF-8";
-h1 {
-    font-family: 'Krona One', sans-serif;
-    color: #000000;
-    text-align: center;
-    font-size: 2em;
-    font-weight: bolder;
-    padding-bottom: 5px;
-}
 
+h1{
+  font-family: 'Krona One', sans-serif;
+  color: #000000;
+  text-align: center;
+  font-weight: bolder;
+    
+}
 .qr-code-generator {
     width: 400px;
     margin: 0 auto;
@@ -34,9 +33,11 @@ input {
     color: black;
     font-weight: bolder;
     background-color: rgba(0, 0, 0, 0.30)
+    
 }
 
-.qr-url, .qr-size {
+.qr-url,
+.qr-size {
     padding: 0.5em;
     border: 1px solid #ddd;
     border-radius: 2px;
@@ -58,7 +59,7 @@ input {
     width: 50%;
     margin: 1em 0 0;
     padding: 0.25em;
-    font-size: 1em;
+    font-size: 1.2em;
     border: none;
     cursor: pointer;
     background-color: #000000;
@@ -66,17 +67,16 @@ input {
     color: #fff;
     border-radius: 10px;
 }
-
 .generate-qr-code:hover {
     background-color: #64dd17;
+   
 }
-
 .reset {
     display: inline-block;
     width: 50%;
     margin: 0.5em 0 0;
     padding: 0.25em;
-    font-size: 1em;
+    font-size: 1.2em;
     border: none;
     cursor: pointer;
     background-color: #000000;
@@ -86,10 +86,11 @@ input {
 }
 
 .reset:hover {
-    background-color: red;
+   background-color: red;
+  
 }
 
-#obs {
+#obs{
     display: inline-block;
     width: 100%;
     margin: 1em 0 0;
@@ -99,44 +100,5 @@ input {
     box-shadow: 0px 2px 6px black;
     color: black;
     border-radius: 10px;
-}
 
-@media screen and (max-width: 1024px) {
-    div#mid, h1, #obs, .reset, .generate-qr-code, .qr-size, .qr-url, input, #qrcode a, #qrcode, .qr-code-generator *, .qr-code-generator {
-        max-width: 100%;
-        font-size: 1em;
-    }
-    .qr-size, .qr-url {
-        margin-top: 10px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    div#mid, h1, #obs, .reset, .generate-qr-code, .qr-size, .qr-url, input, #qrcode a, #qrcode, .qr-code-generator *, .qr-code-generator {
-        max-width: 100%;
-        font-size: 1em;
-    }
-    .qr-size, .qr-url {
-        margin-top: 10px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    div#mid, h1, #obs, .reset, .generate-qr-code, .qr-size, .qr-url, input, #qrcode a, #qrcode, .qr-code-generator *, .qr-code-generator {
-        max-width: 100%;
-        font-size: 1em;
-    }
-    .qr-size, .qr-url {
-        margin-top: 10px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    div#mid, h1, #obs, .reset, .generate-qr-code, .qr-size, .qr-url, input, #qrcode a, #qrcode, .qr-code-generator *, .qr-code-generator {
-        max-width: 100%;
-        font-size: 1em;
-    }
-    .qr-size, .qr-url {
-        margin-top: 10px;
-    }
 }
