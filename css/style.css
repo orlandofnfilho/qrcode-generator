@@ -112,3 +112,44 @@ input {
     border-radius: 10px;
 
 }
+
+/*Responsive*/
+@media screen and (max-width: 1024px) {
+    div#mid, h1, #obs, .reset, .generate-qr-code, .qr-size, .qr-url, input, #qrcode a, #qrcode, .qr-code-generator *, .qr-code-generator {
+        max-width: 100%;
+        font-size: 1em;
+    }
+    .qr-size, .qr-url {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div#mid, h1, #obs, .reset, .generate-qr-code, .qr-size, .qr-url, input, #qrcode a, #qrcode, .qr-code-generator *, .qr-code-generator {
+        max-width: 100%;
+        font-size: 1em;
+    }
+    .qr-size, .qr-url {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    div#mid, h1, #obs, .reset, .generate-qr-code, .qr-size, .qr-url, input, #qrcode a, #qrcode, .qr-code-generator *, .qr-code-generator {
+        max-width: 100%;
+        font-size: 1em;
+    }
+    .qr-size, .qr-url {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    div#mid, h1, #obs, .reset, .generate-qr-code, .qr-size, .qr-url, input, #qrcode a, #qrcode, .qr-code-generator *, .qr-code-generator {
+        max-width: 100%;
+        font-size: 1em;
+    }
+    .qr-size, .qr-url {
+        margin-top: 10px;
+    }
+}
