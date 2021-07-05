@@ -101,6 +101,7 @@ input {
     border-radius: 10px;
 }
 
+/*Responsive*/
 @media screen and (max-width: 1024px) {
     div#mid, h1, #obs, .reset, .generate-qr-code, .qr-size, .qr-url, input, #qrcode a, #qrcode, .qr-code-generator *, .qr-code-generator {
         max-width: 100%;
