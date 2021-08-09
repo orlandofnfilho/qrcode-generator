@@ -5,7 +5,7 @@
 </h1>
 
 <h3 align="center">
-   <a href="https://qrcode-generat0r.netlify.app/">Deploy</a>
+   <a href="https://qrcode-generat0r.netlify.app/">Online Demo</a>
 </h3>
 
 <h4 align="center"> 
